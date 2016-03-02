@@ -18,7 +18,7 @@ class PostsController < ApplicationController
 
   def update
     # instantiant / Find
-    @book = Post.find_by id: params[:id]
+    @post = Post.find_by id: params[:id]
     # set values
     @post.title = params[:post][:title]
     @post.post_id = params[:post][:id]
@@ -43,4 +43,11 @@ class PostsController < ApplicationController
       render :new
     end
   end
+
+  def delete
+    @post = Post.find_by id: params[:id]
+    @post.destroy
+    redirect_to root_path
+  end
+
 end
