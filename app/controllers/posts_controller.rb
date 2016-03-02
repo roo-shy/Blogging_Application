@@ -13,7 +13,7 @@ class PostsController < ApplicationController
     end
 
   def edit
-    @post = Post.find(params[:id])
+    @post = Post.find_by id: params[:id]
   end
 
   def update
