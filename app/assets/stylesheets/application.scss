@@ -1,0 +1,35 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import 'posts';
+
+.navbar-inverse {
+  display: flex;
+  padding: 15px;
+
+  li {
+      display:inline;
+     a {
+        padding-right: 18px;
+        color: #ffffff;
+        list-style: none;
+        text-decoration:none;
+        font-size: 23px;
+        &:hover {
+        text-decoration: none;
+        color: #bdc3c7;
+        }
+      }
+   }
+}
+
+nav {
+
+  li {
+      display:inline;
+
+   }
+}
+
+body {
+  color: #666666;
+}
