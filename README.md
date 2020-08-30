@@ -1,2 +1,2 @@
-## Blogging Rails Application
-Mini Blog App which allows you to post, edit, update 
+### Blog - Rails App
+Mini blog app that follows CRUD
