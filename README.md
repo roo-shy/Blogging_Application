@@ -1,2 +1,2 @@
-### Blog - Rails App
-Mini blog app that follows CRUD
+### CRUD mini blog
+
